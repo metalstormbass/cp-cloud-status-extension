@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Cloud Service Status</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+ <script type="text/javascript">
+     function selection() {
+      var e = document.getElementById("menu");
+      var selection = e.options[e.selectedIndex].value;
+      document.getElementById("iframe").src=selection;
+     }
+    </script>
+
+  <body>
+
+
+     <div>
+      <table width=100% cellpadding="0" cellspacing="0">
+<tr>      
+<td>     
+     <p class="custom">
+     <select id="menu" onchange="selection()" width=200px>
+     <option value="https://status.checkpoint.com/">Check Point</option>
+     <option value="https://status.azure.com/en-us/status">Azure</option>
+     <option value="https://status.aws.amazon.com/">AWS</option>
+     <option value="https://status.cloud.google.com/">GCP</option>
+     </select></p>
+      </div>
+</td> 
+</tr>
+
+        <tr> 
+        <td>
+	
+        <iframe src="https://status.checkpoint.com/" height=350px width=100% id=iframe></iframe>
+	    
+	</td>     
+          </tr> 
+        
+      </table>
+    </div>
+
+
+  </body>
+</html>

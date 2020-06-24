@@ -1,1 +1,1 @@
-# cp-cloud-status-extension
+# cp-status-extension

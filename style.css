@@ -1,0 +1,28 @@
+
+
+p.custom {
+  padding: 0px;
+}
+
+iframe {
+margin-top: 20px;
+margin-bottom: 30px;
+border-color: #FF4A5B85;
+overflow: auto;
+} 
+
+select {
+   background: transparent;
+   width: 163px;
+   padding: 5px;
+   line-height: 0.5;
+   border: 1 solid #ddd; 
+   border-radius: 0;
+   height: 34px;
+  color: #2e3f58;
+
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+   
+   }
